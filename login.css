@@ -1,0 +1,11 @@
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text span{
+    font-size: 20px;
+    padding-bottom: 2rem;
+    font-family:sans-serif;
+    font-weight: bold;
+}

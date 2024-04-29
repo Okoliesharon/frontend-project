@@ -1,0 +1,902 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,20..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Wendy+One&display=swap");
+
+@import url(mobile.css);
+body{
+    margin: 0%;
+}
+nav{
+     position: fixed;
+     background-color:white;
+     width: 100%;
+     
+}
+nav .top img{
+    width: 50px;
+}
+ nav .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwee;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: rem;
+    padding-bottom: 2rem;
+    
+   
+ }
+
+ nav .top .savio{
+    padding-left: 40rem;
+ }
+nav .top .savio img{
+    width: 250px;
+    margin-top: -2rem;
+}
+
+nav .top .dropdown img{
+    padding-left: 5rem;
+}
+
+
+
+
+
+nav .top .dropdown button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+nav .top .dropdown{
+    display: inline-block;
+    padding-left: 30rem;
+}
+nav .top .dropdown a{
+    display: block;
+    color: black;
+    height: 2px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav .top .dropdown .content{
+    display: none;
+    position: absolute;
+}
+
+nav .top .dropdown:hover .content{
+    display: block;
+}
+
+nav .container img{
+    width: 30px;
+}
+
+nav .container{
+    position: relative;
+    
+    
+    
+}
+ nav .container .box{
+    position: absolute;
+    top: 0%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    padding-left: 33rem;
+   
+    
+} 
+
+
+ nav .container .box .input_box input{
+   
+    width: 3000px;
+    font-size: 30px;
+    background-color: rgb(225, 225, 241);
+    height: 4rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    outline: none;
+    padding-left: 40rem;
+}
+
+.red{
+    padding-top: 13rem;
+    justify-content: center;
+    
+
+   
+}
+
+.red .blue span{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding-bottom: rem;
+
+}
+.red .blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(22, 150, 201);
+    padding: 0.5rem;
+}
+.red .bow img{
+  
+   width: 50px;
+   position: relative;
+   padding-left: 45rem;
+   margin-top: -1.5rem;
+   background-color:rgb(22, 150, 201);;
+   opacity: 50%;
+   outline: none;
+}
+
+.school .image img{
+    width: 85%;
+    padding-left: 9rem;
+}
+
+.school .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.school .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.school .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 145px;
+}
+
+.school .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+    
+}
+
+.school .button{
+    padding-top: 3rem;
+    margin-left: 47rem;
+    
+}
+
+.school #btn{
+ 
+ padding: 1rem;
+ font-family: "Wendy One", sans-serif;
+ font-size: 25px;
+ background-color: white;
+ width: 450px;
+ cursor: pointer;
+}
+
+.travel .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+/* .travel :hover{
+    transition: pink;
+} */
+
+.travel .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.travel .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.travel .text h1{
+        font-family: "Wendy One", sans-serif;
+        font-size: 145px;
+}
+
+.travel .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+    
+}
+
+.travel .button{
+    padding-top: 3rem;
+    margin-left: 47rem;
+    
+    
+}
+
+.travel #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.ice .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.ice .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.ice .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.ice .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 140px;
+}
+
+.ice .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    
+}
+
+.ice .button{
+    padding-top: 2rem;
+    margin-left: 47rem;
+    
+}
+
+.ice #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.perfect .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.perfect .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.perfect .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.perfect .text h1{
+    font-family: "Wendy One", sans-serif;
+        font-size: 145px;
+}
+
+.perfect .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.perfect .button{
+    padding-top: 2rem;
+    margin-left: 47rem;
+    
+}
+
+.perfect #btn{
+ 
+ padding: 1rem;
+ font-family: "Wendy One", sans-serif;
+ font-size: 25px;
+ background-color: white;
+ width: 450px;
+ cursor: pointer;
+}
+
+.kitty #btn{
+    width: 35rem;
+    height: 4rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(13, 13, 54);
+    color: white;
+    padding: rem;
+    border-radius: 30px;
+}
+
+.kitty{
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+    justify-content: space-around;
+    width: 0.rem;
+   
+}
+
+.kitty .button1{
+    padding-top: 2rem;
+    padding-left: 20rem;
+}
+
+.kitty .button2{
+    padding-top: 2rem;
+    padding-right: 25rem;
+   
+}
+
+.who{
+    padding-top: 8rem;
+}
+.who .text{
+    text-align: center;
+}
+.who .text span{
+    font-size: 95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.who img{
+    width: 450px;
+}
+
+.who .image{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: -25em;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.who .image .fav1{
+    padding-left: 28rem;
+    padding-top: 3rem;
+}
+.who .image .fav2{
+    padding-right: 28rem;
+    padding-top: 3rem;
+}
+
+.japan .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.japan .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.japan .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.japan .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 140px;
+}
+
+.japan .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 53px;
+    line-height: 60px;
+    
+}
+
+.japan .button{
+    padding-top: 2rem;
+    margin-left: 49rem;
+    
+}
+
+.japan #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.text{
+    padding-top:5rem;
+    text-align: center;
+    font-family:  "Wendy One", sans-serif;
+    font-size: 25px;
+}
+.hello{
+    padding-top:2rem ;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    background-color: white;
+    gap: 1rem;
+}
+
+.hello img{
+    width: 278px;
+    background-color: white;
+    
+}
+
+.hello .kitty1 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty1 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty1 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty1{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+.hello .kitty2 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty2 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty1 .text span a{
+    text-decoration: none;
+}
+.hello .kitty2 .text span a{
+    text-decoration: none;
+}
+.hello .kitty3 .text span a{
+    text-decoration: none;
+}
+.hello .kitty4 .text span a{
+    text-decoration: none;
+}
+.hello .kitty5 .text span a{
+    text-decoration: none;
+}
+.hello .kitty6 .text span a{
+    text-decoration: none;
+}
+.hello .kitty2 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty2{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+
+.hello .kitty3 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty3 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty3 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty3{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+
+.hello .kitty4 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty4 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty4 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty4{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+
+.hello .kitty5 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty5 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty5 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty5{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+
+.hello .kitty6 .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .kitty6 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.hello .kitty6 .text small{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.hello .kitty6{
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(238, 232, 232);;
+    background-color: rgb(238, 232, 232);
+   cursor: pointer;
+   
+}
+
+.love1 .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.love1 .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.love1 .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.love1 .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 140px;
+}
+
+.love1 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    
+}
+
+.love1 .button{
+    padding-top: 2rem;
+    margin-left: 47rem;
+    
+}
+
+.love1 #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.love2 .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.love2 .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.love2 .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.love2 .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 140px;
+}
+
+.love2 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    
+}
+
+.love2 .button{
+    padding-top: 2rem;
+    margin-left: 47rem;
+    
+}
+
+.love2 #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.love3 .image img{
+    width: 85%;
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.love3 .text{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.love3 .text h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+
+.love3 .text h1{
+    font-family: "Wendy One", sans-serif;
+    font-size: 140px;
+}
+
+.love3 .text span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    
+}
+
+.love3 .button{
+    padding-top: 2rem;
+    margin-left: 47rem;
+    padding-bottom: 15rem;
+    
+}
+
+.love3 #btn{
+ 
+    padding: 1rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.purple img{
+    width: 130px;
+    padding-left: 58rem;
+}
+
+.purple .text span{
+    font-size: 75px;
+    
+}
+
+.purple .email .e span{
+    font-size: 30px;
+    font-family: "Wendy One", sans-serif;
+    padding-left: 3rem;
+    margin-top: -20rem;
+}
+
+.purple .email .box input{
+    width: 650px;
+    font-size: 37px;
+    height: 5rem;
+    background-color: white;
+    /* border: 1px solid rgb(70, 69, 69);
+     */
+
+}
+
+.purple .email .button #btn{
+    width: 500px;
+    height: 5rem;
+    font-family: "Wendy One", sans-serif;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    cursor: pointer;
+}
+
+.purple .email{
+    padding-top: 8rem;
+    margin-left: -13rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.purple{
+    background-color: rgb(173, 152, 173);
+    padding-bottom: 10rem ;
+}
+
+.world{
+    padding-top: 10rem;
+    padding-left: 5rem;
+   background-color: bisque;
+    
+}
+
+.world .img{
+    padding-left: 90rem;
+}
+
+.world .store{
+    display: flex;
+    flex-direction: column;
+}
+.world .store span{
+    font-family: "Wendy One", sans-serif;
+    font-size: 40px;
+    padding-bottom: 3rem;
+    
+}
+
+.world .store small{
+    font-size: 30px;
+   color: #000;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.world a{
+    text-decoration: none;
+    
+}
+
+.world .more{
+    display: flex;
+    flex-direction: column;
+}
+.world .more span{
+    font-family: "Wendy One", sans-serif;
+    font-size: 40px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    
+}
+
+.world .more small{
+    font-size: 30px;
+   color: #000;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.world .need{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.world .need span{
+    font-family: "Wendy One", sans-serif;
+    font-size: 40px;
+    padding-bottom: 3rem;
+    
+}
+
+.world .need small{
+    font-size: 30px;
+   color: #000;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding-bottom: 2rem;
+}
+
+.world .card{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.world .card span{
+    font-family: "Wendy One", sans-serif;
+    font-size: 40px;
+    padding-bottom: 2rem;
+    
+}
+
+.world .card small{
+    font-size: 30px;
+   color: #000;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.world .image img{
+    width: 60px;
+}
+
+.world .image{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.world .images img{
+    width: 50px;
+}
+
+.world .images{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+
+.world .copy span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}

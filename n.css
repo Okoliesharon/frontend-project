@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,20..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Wendy+One&display=swap");
+
+  
+
+
+
+
+ul{
+    position: relative;
+    list-style-type: none;
+    
+}
+
+ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .5s ease;
+    
+}
+
+ul li a:hover{
+    /* background: rgba(0, 0, 0, 0.7);
+color: #000; */
+}
+
+ul ul{
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0;
+    display: none;
+    
+    
+}
+  ul li.dropdown {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul li.dropdown2 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown2 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown3 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown3 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown4 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown4 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown5 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown5 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown6 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown6 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown7 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown7 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown8 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown8 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ul li.dropdown9 {
+    color: #000;
+    font-size: 40px;
+    font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+}  
+ul li.dropdown9 ul li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/* img{
+    width: 20px;
+    padding-left: 10rem; */
+}
+ul span{
+    position: absolute;
+    right: 20px;
+    
+    
+
+}
+
+ul .dropdown{
+    position: relative;
+}
+
+ul .dropdown:hover ul{
+    display: initial;
+}
+
+ul .dropdown2{
+    position: relative;
+}
+
+ul .dropdown2:hover ul{
+    display: initial;
+}
+
+ul .dropdown3{
+    position: relative;
+}
+
+ul .dropdown3:hover ul{
+    display: initial;
+}
+
+ul .dropdown4{
+    position: relative;
+}
+
+ul .dropdown4:hover ul{
+    display: initial;
+}
+
+ul .dropdown5{
+    position: relative;
+}
+
+ul .dropdown5:hover ul{
+    display: initial;
+}
+
+ul .dropdown6{
+    position: relative;
+}
+
+ul .dropdown6:hover ul{
+    display: initial;
+}
+
+ul .dropdown7{
+    position: relative;
+}
+
+ul .dropdown7:hover ul{
+    display: initial;
+}
+
+ul .dropdown8{
+    position: relative;
+}
+
+ul .dropdown8:hover ul{
+    display: initial;
+}
+
+ul .dropdown9{
+    position: relative;
+}
+
+ul .dropdown9:hover ul{
+    display: initial;
+}
+
