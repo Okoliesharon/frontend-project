@@ -3,7 +3,7 @@
         margin: 0 auto;
        overflow-x: hidden;
        overflow-y:auto ;
-       width: 960px;
+       width: 100%;
     }
     
     
@@ -12,7 +12,7 @@
         background-color:white;
         width: 100%;
         margin-top: -0.1rem;
-        ov
+        
         
    }
    nav .top img{
@@ -91,6 +91,7 @@
        left:40%;
        transform: translate(-50%, -50%);
        padding-left: 33rem;
+       /* width: 50px; */
       
        
    } 
@@ -110,7 +111,7 @@
    
 
     .red{
-        padding-top: 7rem;
+        padding-top: 5rem;
         justify-content: center;
         
     
