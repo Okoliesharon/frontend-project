@@ -333,7 +333,7 @@
 
 .kitty{
     margin-top: -4rem;
-    margin-left: -4rem;
+    margin-left: -1rem;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     text-align: center;
@@ -345,6 +345,7 @@
 
 .who{
     margin-top: -9rem;
+    margin-left: -1rem;
 }
 .who .text{
     text-align: center;
@@ -439,7 +440,7 @@
     grid-template-columns: repeat(2,2fr);
     grid-gap: 0rem;
     padding-left: 1rem;
-    padding-right: 1.5rem;
+    padding-right: 1.9rem;
     background-color: white;
     gap: rem;
     margin-left:rem ;
