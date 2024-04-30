@@ -181,6 +181,7 @@
         padding-top: 3rem;
        
     }
+    /* ggg */
 
     .travel .text{
         text-align: center;
@@ -440,7 +441,7 @@
     grid-template-columns: repeat(2,2fr);
     grid-gap: 0rem;
     margin-left: -4rem;
-    margin-right: 5.8rem;
+    margin-right: 1rem;
     background-color: white;
     gap: rem;
     margin-left:rem ;
