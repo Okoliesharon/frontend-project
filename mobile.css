@@ -333,7 +333,7 @@
 
 .kitty{
     margin-top: -4rem;
-    margin-left: 1.3rem;
+    margin-left: 2.7rem;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     text-align: center;
@@ -440,7 +440,7 @@
     grid-template-columns: repeat(2,2fr);
     grid-gap: 0rem;
     margin-left: -4rem;
-    margin-right: 8rem;
+    margin-right: 5.8rem;
     background-color: white;
     gap: rem;
     margin-left:rem ;
