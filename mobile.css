@@ -98,15 +98,17 @@
    
    
     nav .container .box .input_box input{
+        display: flex;
       
-       width: 1000px;
+       width: 400px;
        font-size: 15px;
        background-color: rgb(225, 225, 241);
        height: 2.5rem;
        border-top: 1px solid black;
        border-bottom: 1px solid black; 
        outline: none;
-       padding-left: 6.7rem;
+       padding-left: 1rem;
+       margin-right: 29rem;
    }
    
 
@@ -444,7 +446,7 @@
     grid-template-columns: repeat(2,2fr);
     grid-gap: 0rem;
     margin-left: -4rem;
-    margin-right: 1.5rem;
+    margin-right: 1.7rem;
     background-color: white;
     gap: rem;
     margin-left:rem ;
