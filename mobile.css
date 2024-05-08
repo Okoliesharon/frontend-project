@@ -1,5 +1,5 @@
 @media only screen and (max-width:480px) {
-    body{
+    html, body{
         margin: 0 auto;
        overflow-x: hidden;
        overflow-y:auto ;
@@ -12,6 +12,8 @@
         background-color:white;
         width: 100%;
         margin-top: -0.1rem;
+        max-width: 100%;
+        overflow-x: hidden;
         
         
    }
@@ -90,7 +92,8 @@
        top: 0%;
        left:40%;
        transform: translate(-50%, -50%);
-       padding-left: 33rem;
+       padding-left: ;
+       overflow-x: hidden;
       
       
        
@@ -100,21 +103,26 @@
     nav .container .box .input_box input{
         display: flex;
       
-       width: 400px;
+       width: 45%;
        font-size: 15px;
        background-color: rgb(225, 225, 241);
        height: 2.5rem;
-       border-top: 1px solid black;
-       border-bottom: 1px solid black; 
+       border: 1px solid black;
        outline: none;
+       margin-bottom: 2rem;
+     
        padding-left: 1rem;
-       margin-right: 29rem;
+       margin-right: 50rem;
+       
+       overflow-x: hidden;
    }
    
 
     .red{
-        padding-top: 7rem;
+        padding-top: 6rem;
         justify-content: center;
+        max-width: 100%;
+        overflow-x: hidden;
         
     
        
@@ -130,6 +138,8 @@
 
     .school{
         padding-right: rem;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .school .image img{
@@ -178,6 +188,11 @@
      width: 110px;
      height: 0rem;
      cursor: pointer;
+    }
+
+    .travel{
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .travel .image img{
@@ -229,6 +244,11 @@
         cursor: pointer;
     }
 
+    .ice{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .ice .image img{
         width: 85%;
         margin-left: -7rem;
@@ -277,6 +297,10 @@
         cursor: pointer;
     }
     
+    .perfect{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .perfect .image img{
         width: 85%;
         margin-left: -7rem;
@@ -346,12 +370,15 @@
     justify-content: space-around;
     width: 0.rem;
     overflow: hidden;
+    max-width: 100%;
    
 }
 
 .who{
     margin-top: -9rem;
     margin-left: -1rem;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .who .text{
     text-align: center;
@@ -383,6 +410,11 @@
 .who .image .fav2{
     padding-right: 28rem;
     padding-top: 3rem;
+}
+
+.japan{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .japan .image img{
@@ -438,6 +470,8 @@
     text-align: center;
    font-family:  "Wendy One", sans-serif;
     font-size: 12px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .hello{
@@ -447,9 +481,11 @@
     grid-gap: 0rem;
     margin-left: -4rem;
     margin-right: 1.7rem;
-    background-color: white;
+    background-color:;
     gap: rem;
     margin-left:rem ;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .hello img{
@@ -471,7 +507,7 @@
 .hello .kitty1{
     display: flex;
     flex-direction: column;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
@@ -493,7 +529,7 @@
 .hello .kitty2{
     display: ;
     flex-direction: ;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
@@ -513,7 +549,7 @@
 .hello .kitty3{
     display: flex;
     flex-direction: ;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
@@ -533,7 +569,7 @@
 .hello .kitty4{
     display: flex;
     flex-direction: column;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
@@ -553,7 +589,7 @@
 .hello .kitty5{
     display: ;
     flex-direction: ;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
@@ -573,11 +609,16 @@
 .hello .kitty6{
     display: ;
     flex-direction:;
-    border: 13px solid rgb(238, 232, 232);;
+    /* border: 1px solid rgb(238, 232, 232);; */
     background-color: rgb(238, 232, 232);
    cursor: pointer;
    margin-bottom: rem;
    
+}
+
+.love1{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .love1 .image img{
@@ -627,7 +668,10 @@
     height: 0rem;
     cursor: pointer;
 }
-
+.love2{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .love2 .image img{
     width: 85%;
     margin-left: -7rem;
@@ -675,7 +719,10 @@
     height: 0rem;
     cursor: pointer;
 }
-
+.love3{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .love3 .image img{
     width: 85%;
     margin-left: -7rem;
@@ -782,6 +829,8 @@
     background-color: rgb(173, 152, 173);
     padding-bottom: 2rem ;
     margin-top: -9rem;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -789,6 +838,8 @@
     padding-top: 3rem;
     padding-left: 1rem;
    background-color: bisque;
+   max-width: 100%;
+   overflow-x: hidden;
    
     
 }
