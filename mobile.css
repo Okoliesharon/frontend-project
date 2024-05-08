@@ -3,7 +3,8 @@
         margin: 0 auto;
        overflow-x: hidden;
        overflow-y:  auto;
-       padding: 10px;
+       padding-left: px;
+       padding-right: px;
       
     }
     
@@ -22,13 +23,13 @@
    }
    nav .top img{
        width: 30px;
-       margin-left: -5rem;
+       margin-left: -4rem;
    }
     nav .top{
        display: flex;
        flex-direction: row;
        /* justify-content: space-betwee; */
-       padding-left: rem;
+       padding-left: ;
        padding-right: rem;
        padding-top: rem;
        padding-bottom: 3rem;
@@ -61,7 +62,7 @@
    }
    nav .top .dropdown{
        display: inline-block;
-       margin-left: -10rem;
+       margin-left: -11.5rem;
    }
    nav .top .dropdown a{
        display: block;
