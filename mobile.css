@@ -141,15 +141,15 @@
 
     .school{
         padding-right: rem;
-        overflow-x: hidden;
+        /* overflow-x: hidden;
         overflow-y: auto;
-        display: flexbox;
+        display: flexbox; */
     }
 
     .school .image img{
         width: 85%;
         margin-left: -7rem;
-        overflow-y: auto;
+        /* overflow-y: auto; */
        
     }
 
@@ -197,9 +197,9 @@
     }
 
     .travel{
-        overflow-x: hidden;
+        /* overflow-x: hidden;
         overflow-y: auto;
-        display: flexbox;
+        display: flexbox; */
         /* removed max width of 100 */
     }
 
@@ -207,7 +207,7 @@
         width: 85%;
         margin-left: -7rem;
         padding-top: 3rem;
-        overflow-y: auto;
+        /* overflow-y: auto; */
        
     }
     /* ggg */
@@ -254,16 +254,16 @@
     }
 
     .ice{
-        overflow-x: hidden;
+        /* overflow-x: hidden;
         overflow-y: auto;
-        display: flexbox;
+        display: flexbox; */
     }
 
     .ice .image img{
         width: 85%;
         margin-left: -7rem;
         padding-top: 3rem;
-        overflow-y: auto;
+        /* overflow-y: auto; */
        
     }
 
@@ -309,15 +309,15 @@
     }
     
     .perfect{
-        overflow-x: hidden;
+        /* overflow-x: hidden;
         overflow-y: auto;
-        display: flexbox;
+        display: flexbox; */
     }
     .perfect .image img{
         width: 85%;
         margin-left: -7rem;
         padding-top: 3rem;
-        overflow-y: auto;
+        /* overflow-y: auto; */
        
     }
 
@@ -426,16 +426,16 @@
 }
 
 .japan{
-    overflow-x: hidden;
+    /* overflow-x: hidden;
         overflow-y: auto;
-        display: flexbox;
+        display: flexbox; */
 }
 
 .japan .image img{
     width: 85%;
     margin-left: -7rem;
     padding-top: 3rem;
-    overflow-y: auto;
+    /* overflow-y: auto; */
    
 }
 
@@ -635,17 +635,17 @@
 
 .love1{
     
-    overflow-x: hidden;
+    /* overflow-x: hidden;
     overflow-y: auto;
-    display: flexbox;
+    display: flexbox; */
 }
 
 .love1 .image img{
     width: 85%;
     margin-left: -7rem;
     margin-top: -4rem; 
-    overflow-y: auto;
-  
+    /* overflow-y: auto;
+   */
 }
 
 .love1 .text{
@@ -689,15 +689,15 @@
     cursor: pointer;
 }
 .love2{
-    overflow-x: hidden;
-    overflow-y: auto;
-    display: flexbox;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+   
 }
 .love2 .image img{
     width: 85%;
     margin-left: -7rem;
     margin-top: -4rem;
-    overflow-y: auto;
+    /* overflow-y: auto; */
    
 }
 
@@ -742,14 +742,14 @@
     cursor: pointer;
 }
 .love3{
-    overflow-x: hidden;
-    overflow-y: auto;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
 }
 .love3 .image img{
     width: 85%;
     margin-left: -7rem;
     margin-top: -4rem;
-    overflow-y: auto;
+    /* overflow-y: auto; */
    
 }
 
