@@ -811,7 +811,10 @@
 
 .purple .text span{
     font-size: 15px;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: block;
     
 }
 
@@ -847,7 +850,7 @@
 }
 
 .purple .email{
-    padding-top: 4rem;
+    padding-top: 1rem;
     margin-left: -13rem;
     display: flex;
     flex-direction: row;
@@ -860,6 +863,7 @@
     margin-top: -9rem;
     overflow-x: hidden;
     overflow-y: auto;
+    
 }
 
 
