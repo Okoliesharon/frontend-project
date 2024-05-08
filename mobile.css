@@ -62,7 +62,7 @@
    }
    nav .top .dropdown{
        display: inline-block;
-       margin-left: -11.5rem;
+       margin-left: -14rem;
    }
    nav .top .dropdown a{
        display: block;
@@ -385,6 +385,7 @@
     grid-template-columns: repeat(2, 2fr);
     text-align: center;
     justify-content: center;
+    padding-left: 5rem;
     width: 0.rem;
     overflow: hidden;
     max-width: 100%;
